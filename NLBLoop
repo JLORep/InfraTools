@@ -1,0 +1,12 @@
+$response -eq "Y"
+
+do {
+    $nodeStatus = Get-NlbClusterNode -hostname "Yuki.ad.mmu.ac.uk"
+    $status = $nodeStatus[0].State.ToString()
+    $status1 = $nodeStatus[1].State.ToString()
+    $flag = 1
+	write-host "Node Status: "$status
+	write-host "Node Status: "$status1
+    # do your normal stuff ...
+}
+while ($response -eq "Y")

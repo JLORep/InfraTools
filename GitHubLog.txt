@@ -1,0 +1,75 @@
+2015-07-28 10:43:59.7183|WARN|thread: 1|StandardUserErrors|Showing user error Please check your log file for more details, or email support if you are still having problems.
+GitHub.IO.ProcessException: Cloning into 'CloneWars'...
+fatal: unable to access 'https://github.com/bumpuddle/CloneWars.git/': Failed connect to github.com:443; No error
+2015-07-28 10:43:40.8214|INFO|thread: 1|CommandLineHandler|Parsing command line arguments:C:\Users\46020944\AppData\Local\Apps\2.0\H54H09Q3.M6D\ZL5ALNLM.0JD\gith..tion_317444273a93ac29_0002.000e_114545a4195e25d4\GitHub.exe
+2015-07-28 10:43:40.8371|INFO|thread: 1|AppInstanceCommunicator|Starting up as master instance of GitHub for Windows
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| #########################################
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| GitHub for Windows started. VERSION: 2.14.7.1
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| Build version: b86a398244b1616c5ff52246cf77d6a56cb1f8f9
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| ***************************************
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| ***        Have a problem?          ***
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| ***    Email support@github.com     ***
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| ***      and include this file      ***
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| ***************************************
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| OS Version: Windows NT 6.3.9600.0 amd64
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| CLR Version: 4.0.30319.34209
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| Current culture: en-GB
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| Terminal Services session: yes
+2015-07-28 10:43:40.9621|INFO|thread: 4|StartupLogging| Location: C:\Users\46020944\AppData\Local\Apps\2.0\H54H09Q3.M6D\ZL5ALNLM.0JD\gith..tion_317444273a93ac29_0002.000e_114545a4195e25d4\GitHub.exe
+2015-07-28 10:43:41.6340|INFO|thread: 1|HardwareRenderingHelper|Your video card appears to support hardware rendering. If this isn't the case and you see glitches
+2015-07-28 10:43:41.6340|INFO|thread: 1|HardwareRenderingHelper|set the GH_FORCE_SW_RENDERING environment variable to 1
+2015-07-28 10:43:41.6340|INFO|thread: 1|App|Checking whether application is network deployed.
+2015-07-28 10:43:41.6965|INFO|thread: 1|ClickOnceAppIconHelper|Updating registry with our application icon 'C:\Users\46020944\AppData\Local\Apps\2.0\H54H09Q3.M6D\ZL5ALNLM.0JD\gith..tion_317444273a93ac29_0002.000e_114545a4195e25d4\Images\App.ico'
+2015-07-28 10:43:41.8371|INFO|thread: 4|StartupLogging| ActivationUri: https://github-windows.s3.amazonaws.com/GitHub.application
+2015-07-28 10:43:42.3840|INFO|thread: 4|GitEnvironment|Process set up with this SSH Agent info: 17108:/tmp/ssh-4VprgSN2863d/agent.17036
+2015-07-28 10:43:42.3840|INFO|thread: 4|GitEnvironment|PATH is C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\46020944\AppData\Local\Apps\2.0\H54H09Q3.M6D\ZL5ALNLM.0JD\gith..tion_317444273a93ac29_0002.000e_114545a4195e25d4;C:\Users\46020944\AppData\Local\GitHub\lfs-amd64_0.5.1;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+2015-07-28 10:43:42.3840|INFO|thread: 4|StartupLogging| =====================================================
+2015-07-28 10:43:42.3840|INFO|thread: 4|StartupLogging|  DIAGNOSTICS                                        |
+2015-07-28 10:43:42.3840|INFO|thread: 4|StartupLogging| =====================================================
+2015-07-28 10:43:42.3840|INFO|thread: 4|StartupLogging| Git Extracted: 'True:
+2015-07-28 10:43:42.3840|INFO|thread: 4|StartupLogging| PortableGit Dir Exists: 'C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad'
+2015-07-28 10:43:42.3840|INFO|thread: 4|StartupLogging| Git Executable Exists: 'C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe'
+2015-07-28 10:43:42.3840|INFO|thread: 4|StartupLogging| ----------------------------------------------------
+2015-07-28 10:43:42.3840|INFO|thread: 4|StartupLogging| PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+2015-07-28 10:43:42.5246|INFO|thread: 4|StartupLogger|Proxy information: http://wwwcache.mmu.ac.uk:3128/
+2015-07-28 10:43:42.5246|INFO|thread: 4|StartupLogger|Couldn't fetch creds for proxy
+2015-07-28 10:43:42.6496|INFO|thread: 4|PortablePackageManager|Already extracted PortableGit.7z, returning 100%
+2015-07-28 10:43:43.1184|INFO|thread: 4|MsysGitCertificateInstaller|Found certificate cache, loaded 162 certificates
+2015-07-28 10:43:43.1184|INFO|thread: 4|MsysGitCertificateInstaller|Created certificate bundle with 168 entries
+2015-07-28 10:43:43.6184|INFO|thread: 1|CommandLineToolsExtractor|Portable Git and Git LFS are already extracted
+2015-07-28 10:43:43.6184|INFO|thread: 1|GitClient|Installing git lfs filters
+2015-07-28 10:43:43.6340|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 17108:/tmp/ssh-4VprgSN2863d/agent.17036
+2015-07-28 10:43:43.6340|INFO|thread: 1|GitEnvironment|PATH is C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\46020944\AppData\Local\Apps\2.0\H54H09Q3.M6D\ZL5ALNLM.0JD\gith..tion_317444273a93ac29_0002.000e_114545a4195e25d4;C:\Users\46020944\AppData\Local\GitHub\lfs-amd64_0.5.1;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-07-28 10:43:43.6497|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'lfs init ', Working Directory: C:\Users\46020944\AppData\Local\Temp\2\
+2015-07-28 10:43:43.6809|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
+2015-07-28 10:43:43.6809|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
+2015-07-28 10:43:43.7122|INFO|thread: 4|StartupSequence|Took 1072ms to Update certificate bundle from system store
+2015-07-28 10:43:44.9286|INFO|thread: 1|PortablePackageManager|Already extracted gitignore.7z, returning 100%
+2015-07-28 10:43:45.8711|WARN|thread: 8|LoginCache|Could not get login for host 'GitHub.HostAddress'
+System.Collections.Generic.KeyNotFoundException: The given key 'login:null' was not present in the cache.
+2015-07-28 10:43:46.6242|INFO|thread: 1|RepositoryHost|Log in from cache for login 'bumpuddle' to host 'https://api.github.com/' SUCCEEDED
+2015-07-28 10:43:46.7482|INFO|thread:19|ApplicationShellInitializer|Running post login tasks. ~/.gitconfig is set up with user.name = 'bumpuddle' and user.email = 'jameseymail@hotmail.co.uk'
+2015-07-28 10:43:46.7872|INFO|thread:19|SSHKeyHelper|ssh-agent already running
+2015-07-28 10:43:46.7872|INFO|thread:19|PortablePackageManager|Already extracted lfs-amd64.7z, returning 100%
+2015-07-28 10:43:46.7872|INFO|thread:19|GitEnvironment|Process set up with this SSH Agent info: 17108:/tmp/ssh-4VprgSN2863d/agent.17036
+2015-07-28 10:43:46.7872|INFO|thread:19|GitEnvironment|PATH is C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\46020944\AppData\Local\Apps\2.0\H54H09Q3.M6D\ZL5ALNLM.0JD\gith..tion_317444273a93ac29_0002.000e_114545a4195e25d4;C:\Users\46020944\AppData\Local\GitHub\lfs-amd64_0.5.1;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-07-28 10:43:46.8042|INFO|thread:19|ProcessWrapper|Starting: Process - FileName: 'C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\ssh-add.exe', Args: '"C:\Users\46020944\.ssh\github_rsa"', Working Directory: C:\Users\46020944\AppData\Local\Temp\2\
+2015-07-28 10:43:46.9342|INFO|thread: 8|SSHKeyHelper|Found existing SSH key pair
+2015-07-28 10:43:51.8016|INFO|thread: 8|SoftwareUpdateViewModel|Checking for new version
+2015-07-28 10:43:56.6411|INFO|thread: 1|RepositoryModel|Cloning repo https://github.com/bumpuddle/CloneWars.git
+2015-07-28 10:43:56.6531|INFO|thread: 1|GitLfsSmudgeTail|Setting Git LFS smudge progress environment variable
+2015-07-28 10:43:56.6631|INFO|thread: 1|RepositoryModel|Cloning 'https://github.com/bumpuddle/CloneWars.git' to 'CloneWars' in directory 'C:\Users\46020944\Desktop\GitHub
+2015-07-28 10:43:56.6631|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 17108:/tmp/ssh-4VprgSN2863d/agent.17036
+2015-07-28 10:43:56.6631|INFO|thread: 1|GitEnvironment|PATH is C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\46020944\AppData\Local\Apps\2.0\H54H09Q3.M6D\ZL5ALNLM.0JD\gith..tion_317444273a93ac29_0002.000e_114545a4195e25d4;C:\Users\46020944\AppData\Local\GitHub\lfs-amd64_0.5.1;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\System32
+2015-07-28 10:43:56.6631|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\46020944\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'clone --progress --recursive  --  "https://github.com/bumpuddle/CloneWars.git" "CloneWars" ', Working Directory: C:\Users\46020944\Desktop\GitHub
+2015-07-28 10:43:56.9041|INFO|thread:11|DashboardViewModel|Selected repository 'bumpuddle/CloneWars'
+2015-07-28 10:43:58.3802|INFO|thread:11|DashboardViewModel|Took 1470ms to create repository for location: C:\Users\46020944\Desktop\GitHub\CloneWars
+2015-07-28 10:43:58.8242|INFO|thread:12|GitLfsSmudgeTail|Cleaning up Git LFS smudge progress environment variable
+2015-07-28 10:43:58.8753|INFO|thread: 1|RepositoryViewModel|Refresh of Git data skipped because clone is in progress
+2015-07-28 10:43:58.8863|ERROR|thread: 1|SyncButtonViewModel|Branch was not updated before refresh was called
+2015-07-28 10:43:59.2223|INFO|thread: 4|BackgroundFetcher|Calculated a refresh period for bumpuddle/CloneWars of 3600 seconds
+2015-07-28 10:43:59.2223|INFO|thread: 4|BackgroundFetcher|Added a delay for bumpuddle/CloneWars of 25195 milliseconds

@@ -1,0 +1,6 @@
+# Setup the correct modules for SharePoint Manipulation 
+if ( (Get-PSSnapin -Name Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue) -eq $null ) 
+{     
+   Add-PsSnapin Microsoft.SharePoint.PowerShell 
+} 
+$host.Runspace.ThreadOptions = "ReuseThread"

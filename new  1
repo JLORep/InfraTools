@@ -1,0 +1,3 @@
+get-vm | select name, Powerstate, @{N="IPAddress"; E={$_.Guest.IPAddress[0]}}, @{N="DnsName"; E={$_.ExtensionData.Guest.Hostname}} | Export-Csv C:\VMIPDNSDetails.csv
+
+Get-VMHostNetworkAdapter | select VMhost, Name, IP, SubnetMask, Mac, PortGroupName, vMotionEnabled, mtu, FullDuplex, BitRatePerSec | Export-Csv C:\VMHostNetworkDetails.csv
