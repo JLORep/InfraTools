@@ -1,0 +1,1 @@
+New-VICredentialStoreItem -Host vc2 -User 46020944 -Password Pa55work -File "C:\Scripts\creds.crd"

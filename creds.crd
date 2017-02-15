@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<viCredentials>
+  <version>2.0</version>
+  <passwordEntry>
+    <host>vc2</host>
+    <username>46020944</username>
+    <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaH+Kwmn82U6+m/puVFUDoAAAAAACAAAAAAADZgAAwAAAABAAAAAoWd7A86VZxfgmLg8WuwuQAAAAAASAAACgAAAAEAAAAEEBNP2VkYIgy90XaTmu6DIQAAAANs9VQw5X8IyhrF8G/vQRDBQAAACbKFJXENCk91L+lBAYHMHDTm4rcg==</password>
+  </passwordEntry>
+  <passwordEntry>
+    <host>vc2</host>
+    <username>ad\46020944</username>
+    <password>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaH+Kwmn82U6+m/puVFUDoAAAAAACAAAAAAADZgAAwAAAABAAAAA+FML7fplfFXOLZjyvxNmPAAAAAASAAACgAAAAEAAAAIZptOSiBwTD4uBBts7JisMQAAAAtnvlXRc1p5ZBz9MCnTpuORQAAABRjEDqFlkNUeahHOcLpFZl1YrTig==</password>
+  </passwordEntry>
+</viCredentials>

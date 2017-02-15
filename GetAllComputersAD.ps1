@@ -1,0 +1,1 @@
+Get-ADComputer -Filter * | Export-Csv H:\ComputerList.csv -NoTypeInformation

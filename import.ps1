@@ -1,0 +1,1 @@
+PowerCLI C:\users\46020944\Desktop> Import-Csv James.csv  | %{Get-VM -Name $_.Name | Set-Annotation -CustomAttribute 'Role' -Value $_.'Role'}

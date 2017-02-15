@@ -1,0 +1,3 @@
+robocopy "\\NWFA2DB\Program Files\FileMaker\FileMaker Server\Data\JTest" "\\ascfiler1\SQLBackups\Backups\NWFA\James" /MIR /SEC /SECFIX
+
+REM /S /MOV /MINAGE:1 /IS /R:1 /W:1

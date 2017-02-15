@@ -1,0 +1,20 @@
+Connect to an ESX/ESXi host or vCenter Server or using PowerCLI:
+
+Connect-VIServer -Server ServerNameOrIPAddress
+
+Locate the source file or directory.
+
+Copy the source file or directory to a destination using the Copy-DatastoreItem command:
+
+Copy-DatastoreItem -Item SourceDatastoreItem(s) [-Destination DestinationLocation] [-Force] [-Recurse] [-Confirm]
+
+For example:
+
+Copy-DatastoreItem -Item ds:\virtualmachine1\virtualmachine1.vmx -Destination c:\virtualmachine1\
+Copy-DatastoreItem -Item c:\virtualmachine2\* -Destination ds:\virtualmachine2\
+
+For more information, see the PowerCLI Copy-DatastoreItem commandlet documentation.
+
+Notes: 
+Files cannot be copied directly between vSphere datastores in different vCenter Servers using Copy-DatastoreItem. Copy the files to the PowerCLI host's local filesystem temporarily, and then copy to the destination.
+The file paths after -Item and -Destination are case sensitive.
