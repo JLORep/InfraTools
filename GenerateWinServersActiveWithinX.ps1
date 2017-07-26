@@ -20,9 +20,9 @@
 	
 	#Setting up Variables
 $daysinactive = Read-host 'How Many (Whole) Days Inactive??'
-$domain = 'VENTURAUK' #Enter a DC name here if you require a "per DC" Report
+$domain = '*DOMAIN*' #Enter a DC name here if you require a "per DC" Report
 $time = (Get-Date).Adddays(-($daysinactive)) 
-$path = '\\uk.ventura.local\data$\IT\Tech Services\MacafeeReports\ActiveServersArchive\' + (get-date -format 'yyy-MM-dd') + 'TimestampsNewerThan' + $daysinactive + 'Days.csv'
+$path = '\\****.local\data$\IT\Tech Services\MacafeeReports\ActiveServersArchive\' + (get-date -format 'yyy-MM-dd') + 'TimestampsNewerThan' + $daysinactive + 'Days.csv'
 
 # Get AD computers from Active Directory, which are Windows Server and have the lastLogonTimestamp less than our time
 $Servers = % {
