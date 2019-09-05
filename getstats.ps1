@@ -1,7 +1,7 @@
 # Connect to Filer
-$NaIP = "10.112.250.1"
-$NaUS = "ad\46020944"
-$NaPW = "Pa55work"
+$NaIP = "xxxx.xxxx.xxx"
+$NaUS = "xxxxxxx"
+$NaPW = "xxxxxx"
 
 $Password = ConvertTo-SecureString $NaPW -AsPlainText -Force
 $Creds = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $NaUS,$Password
